@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends KinematicBody
+
+func _ready():
+	add_to_group(\"Player\", true)
+"
+
+[node name="Player" type="KinematicBody" groups=["player"]]
+script = SubResource( 1 )

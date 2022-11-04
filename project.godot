@@ -11,7 +11,12 @@ config_version=4
 [application]
 
 config/name="Godot Multiplayer Utils"
+run/main_scene="res://menu/Menu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+MultiplayerHandler="*res://multiplayer/MultiplayerHandler.tscn"
 
 [gui]
 
